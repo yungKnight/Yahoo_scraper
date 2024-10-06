@@ -125,4 +125,6 @@ async def test_map():
 
         print(f"Data saved to {file_name}")
 
+        await asyncio.sleep(2)
+
         await page.close()
